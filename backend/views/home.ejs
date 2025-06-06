@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <form action="/add" method="post">
+        <input type="text" placeholder="Enter the task" name="task" required>
+        <button>Add</button>
+    </form>
+    <div>
+
+        <% for(let i=0;i<tasks.length; i++){ %>
+            <br>
+            <div>
+                <%=tasks[i].task%>
+            </div>
+                   
+                <form action="/delete/<%=tasks[i].id%>?_method=DELETE" method="post">
+                    <button>delete</button>
+                </form>
+            
+            <br>
+            <% } %>
+    </div>
+    
+</body>
+</html>
