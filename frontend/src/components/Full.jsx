@@ -44,7 +44,7 @@ const Full = () => {
          {/* <p>{data}</p> */}
       <div style={{ backgroundColor: '#212121' }} className='flex flex-col justify-center items-center h-screen bg-gray-100 border-purple'>
         
-        <div style={{ backgroundColor: '#303030' }}  className='flex flex-col justify-center items-center py-8 px-4 sm:px-2 md:px-4  rounded-4xl'>
+        <div style={{ backgroundColor: '#303030' }}  className='flex flex-col justify-center items-center py-8 px-8 sm:px-2 md:px-4 m-2 rounded-4xl'>
 
           <h1 className='underline fw-semibold'>TODO APP</h1>
           <InputField onTaskAdded={fetchTasks} />
