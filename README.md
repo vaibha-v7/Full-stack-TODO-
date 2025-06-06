@@ -29,7 +29,7 @@ Add a task here, watch it magically appear everywhere else — no refresh needed
 1. Clone the repo
 
    ```bash
-   git clone(https://github.com/vaibha-v7/Full-stack-TODO-.git)
+   git clone https://github.com/vaibha-v7/Full-stack-TODO-.git
    cd (folder created)
    ```
    
